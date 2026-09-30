@@ -1,6 +1,6 @@
 package com.peterwhitedev.labs.personas.repository;
 
-import com.capgemini.curso1_spring1.api.domain.Persona;
+import com.peterwhitedev.labs.personas.api.domain.Persona;
 import java.util.List;
 
 public interface PersonasRepository {

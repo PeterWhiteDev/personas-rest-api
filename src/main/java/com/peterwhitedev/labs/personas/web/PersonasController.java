@@ -7,9 +7,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.capgemini.curso1_spring1.api.PersonasApi;
-import com.capgemini.curso1_spring1.api.domain.Persona;
-import com.capgemini.curso1_spring1.api.domain.PersonaInput;
+import com.peterwhitedev.labs.personas.api.PersonasApi;
+import com.peterwhitedev.labs.personas.api.domain.Persona;
+import com.peterwhitedev.labs.personas.api.domain.PersonaInput;
 import com.peterwhitedev.labs.personas.service.PersonaService;
 import com.peterwhitedev.labs.personas.web.error.PersonaNotFoundException;
 

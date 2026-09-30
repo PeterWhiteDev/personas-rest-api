@@ -1,7 +1,7 @@
 package com.peterwhitedev.labs.personas.service;
 
-import com.capgemini.curso1_spring1.api.domain.Persona;
-import com.capgemini.curso1_spring1.api.domain.PersonaInput;
+import com.peterwhitedev.labs.personas.api.domain.Persona;
+import com.peterwhitedev.labs.personas.api.domain.PersonaInput;
 import java.util.List;
 
 public interface PersonaService {

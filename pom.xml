@@ -135,9 +135,9 @@
 							<generatorName>spring</generatorName>
 							<output>
 								${project.build.directory}/generated-sources/openapi</output>
-							<apiPackage>com.capgemini.curso1_spring1.api</apiPackage>
+							<apiPackage>com.peterwhitedev.labs.personas.api</apiPackage>
 							<modelPackage>
-								com.capgemini.curso1_spring1.api.domain</modelPackage>
+								com.peterwhitedev.labs.personas.api.domain</modelPackage>
 							<configOptions>
 								<interfaceOnly>true</interfaceOnly>
 								<skipDefaultInterface>true</skipDefaultInterface>

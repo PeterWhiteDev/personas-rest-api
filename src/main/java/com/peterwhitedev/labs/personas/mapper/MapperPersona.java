@@ -1,6 +1,6 @@
 package com.peterwhitedev.labs.personas.mapper;
 
-import com.capgemini.curso1_spring1.api.domain.Persona;
+import com.peterwhitedev.labs.personas.api.domain.Persona;
 import com.peterwhitedev.labs.personas.entity.PersonaEntity;
 
 public class MapperPersona {

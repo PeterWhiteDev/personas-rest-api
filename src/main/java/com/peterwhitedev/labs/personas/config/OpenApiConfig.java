@@ -13,9 +13,9 @@ public class OpenApiConfig {
 	public OpenAPI customOpenAPI() {
 		return new OpenAPI()
 				.info(new Info()
-						.title("Curso Spring 1")
+						.title("Api Rest Spring")
 						.version("1.0")
-						.description("API curso de Spring para Capgemini"));
+						.description("API Rest CRUD Personas"));
 	}
 
 }

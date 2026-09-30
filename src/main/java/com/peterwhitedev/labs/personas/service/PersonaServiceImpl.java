@@ -5,8 +5,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.capgemini.curso1_spring1.api.domain.Persona;
-import com.capgemini.curso1_spring1.api.domain.PersonaInput;
+import com.peterwhitedev.labs.personas.api.domain.Persona;
+import com.peterwhitedev.labs.personas.api.domain.PersonaInput;
 import com.peterwhitedev.labs.personas.entity.PersonaEntity;
 import com.peterwhitedev.labs.personas.mapper.PersonaMapper;
 import com.peterwhitedev.labs.personas.repository.PersonaJpaRepository;
