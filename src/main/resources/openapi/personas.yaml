@@ -1,0 +1,50 @@
+openapi: 3.0.1
+info:
+  title: API Personas
+  version: 1.0.0
+
+paths:
+  /personas:
+    get:
+      summary: Listado de personas
+      tags: [Personas]
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Persona'
+
+  /personas/{id}:
+    get:
+      summary: Obtener persona por ID
+      tags: [Personas]
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Persona'
+
+components:
+  schemas:
+    Persona:
+      type: object
+      required: [id, nombre]
+      properties:
+        id:
+          type: integer
+        nombre:
+          type: string
+        edad:
+          type: integer
